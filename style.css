@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 70vh;
+    width: 100vw;
+    background: rgba(80, 187, 241, 0.712);
+    position: relative;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+header .nav img{
+    height: 4rem;
+}
+
+header .nav p{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(21, 108, 152);
+}
+
+header .content p{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(9, 85, 122);
+    margin: 1rem 0;
+    text-align: center;
+}
+
+header .enjoy p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(186, 55, 55);
+    text-transform: capitalize;
+}
+
+header .book{
+    position: absolute;
+    bottom: -15%;
+    left: 48%;
+    transform: translate(-48%);
+    z-index: 9;
+    background: rgb(55, 52, 144);
+    width: 45%;
+    height: 40px;
+    padding-top: 4px;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+header .book a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .gif .first{
+    position: absolute;
+    bottom: 0px;
+    height: 60%;
+    width: 100%;
+    z-index: 5;
+}
+
+
+header .gif .second{
+    position: absolute;
+    z-index: 9;
+    height: 2rem;
+    top: 43.7%;
+    left: 4%;
+}
+
+.section{
+    height: 11rem;
+    background: rgba(80, 187, 241, 0.712);
+}
+
+.section img{
+    height: 100%;
+}
